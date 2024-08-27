@@ -41,6 +41,24 @@ char *getMonthName(int monthNumber)
   case 5:
     month = "June";
     break;
+  case 6:
+    month = "July";
+    break;
+  case 7:
+    month = "August";
+    break;
+  case 8:
+    month = "September";
+    break;
+  case 9:
+    month = "October";
+    break;
+  case 10:
+    month = "November";
+    break;
+  case 11:
+    month = "December";
+    break;
   }
   return month;
 }
